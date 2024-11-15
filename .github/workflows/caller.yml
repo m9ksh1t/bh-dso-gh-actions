@@ -1,8 +1,0 @@
-name : Call the reusable workflow
-on:
-  push:
-    branches:
-      - main
-jobs:
-  call-reusable-workflow:
-    uses: ./.github/workflows/reuseable.yml
